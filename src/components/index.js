@@ -5,3 +5,4 @@ export * from './input/input.js';
 export * from './button/button.js';
 export * from './h2/h2.js';
 export * from './auth-form-error/auth-form-error.js';
+export * from './content/content.js';
