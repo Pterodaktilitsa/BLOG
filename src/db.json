@@ -98,5 +98,47 @@
       "published_at": "2023-09-29"
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "author_id": "001",
+      "post_id": "001",
+      "published_at": "2042-11-24 11:35",
+      "content": "мой первый комментарий",
+      "id": 1
+    },
+    {
+      "author_id": "001",
+      "post_id": "001",
+      "published_at": "2044-03-04 07:11",
+      "content": "блаблабла",
+      "id": 2
+    },
+    {
+      "author_id": "001",
+      "post_id": "001",
+      "published_at": "2061-03-25 13:22",
+      "content": "птеродактиль",
+      "id": 3
+    },
+    {
+      "author_id": "001",
+      "post_id": "001",
+      "published_at": "2063-10-08 17:03",
+      "content": "гыгы",
+      "id": 4
+    }
+  ],
+  "sessions": [
+    {
+      "hash": "0.13764254252709662296183523721992969512939453125000",
+      "user": {
+        "id": "001",
+        "login": "alisa",
+        "password": "alisa123",
+        "registeredAt": "2023-08-23",
+        "roleId": 0
+      },
+      "id": 1
+    }
+  ]
 }
