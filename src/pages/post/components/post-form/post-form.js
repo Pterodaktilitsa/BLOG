@@ -7,6 +7,7 @@ import { savePostAsync } from '../../../../actions';
 import { Icon, Input } from '../../../../components';
 import { useNavigate } from 'react-router-dom';
 import { useServerRequest } from '../../../../hooks';
+import { PROP_TYPE } from '../../../../constants/prop-type.js';
 
 const PostFormContainer = ({
 	className,
@@ -92,3 +93,6 @@ export const PostForm = styled(PostFormContainer)`
 		white-space: pre-line;
 	}
 `;
+PostForm.propTypes = {
+	post: PROP_TYPE.POST.isRequired,
+};
