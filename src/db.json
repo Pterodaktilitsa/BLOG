@@ -11,8 +11,15 @@
       "login": "ivan",
       "password": "qwerty123",
       "registed_at": "2055-12-20 09:14",
-      "role_id": 2,
+      "role_id": 1,
       "id": "D1lIn6X"
+    },
+    {
+      "login": "ivan2",
+      "password": "qwerty123",
+      "registed_at": "2058-04-22 16:44",
+      "role_id": 2,
+      "id": "56W4K6o"
     }
   ],
   "roles": [
@@ -140,11 +147,25 @@
       "published_at": "2036-10-15 19:20",
       "content": "комментарий",
       "id": 5
+    },
+    {
+      "author_id": "001",
+      "post_id": "003",
+      "published_at": "2057-11-04 19:08",
+      "content": "проверка комментария",
+      "id": 6
+    },
+    {
+      "author_id": "001",
+      "post_id": "004",
+      "published_at": "2058-01-12 04:18",
+      "content": "проверка",
+      "id": 7
     }
   ],
   "sessions": [
     {
-      "hash": "0.43163649002820214661824138602241873741149902343750",
+      "hash": "0.71817269513221759780208230949938297271728515625000",
       "user": {
         "id": "001",
         "login": "alisa",
